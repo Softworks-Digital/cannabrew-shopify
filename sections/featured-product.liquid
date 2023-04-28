@@ -477,7 +477,7 @@
           "price" : {{ variant.price | divided_by: 100.00 | json }},
           "priceCurrency" : {{ cart.currency.iso_code | json }},
           "url" : {{ request.origin | append: variant.url | json }}
-        }{% unless forloop.last %},{% endunless %}
+        }{% unless forloop.last %}{% endunless %}
       {%- endfor -%}
     ]
   }
@@ -907,6 +907,18 @@
             {
               "value": "washing",
               "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__44.label"
+            },
+            {
+              "value": "plastic",
+              "label": "t:sections.collapsible_content.blocks.collapsible_row.settings.icon.options__45.label"
+            },
+            {
+              "value": "vegan",
+              "label": "t:sections.collapsible_content.blocks.collapsible_row.settings.icon.options__46.label"
+            },
+            {
+              "value": "tractor",
+              "label": "t:sections.collapsible_content.blocks.collapsible_row.settings.icon.options__47.label"
             }
           ],
           "default": "heart",

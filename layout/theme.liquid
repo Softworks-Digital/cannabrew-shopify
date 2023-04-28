@@ -7,14 +7,11 @@
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+    <link rel="preload" href="https://cdn.shopify.com/s/files/1/0721/7378/1270/files/charleswright-bold-webfont.woff2" as="font" type="font/woff2" crossorigin>
 
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
     {%- endif -%}
-
-    {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
-      <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
-    {%- endunless -%}
 
     <title>
       {{ page_title }}
@@ -45,6 +42,14 @@
     %}
 
     {% style %}
+      @font-face {
+        font-family: 'CharlesWright-Bold';
+        src: url('https://cdn.shopify.com/s/files/1/0721/7378/1270/files/charleswright-bold-webfont.woff2') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0721/7378/1270/files/charleswright-bold-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+      
       {{ settings.type_body_font | font_face: font_display: 'swap' }}
       {{ body_font_bold | font_face: font_display: 'swap' }}
       {{ body_font_italic | font_face: font_display: 'swap' }}
@@ -57,7 +62,7 @@
         --font-body-weight: {{ settings.type_body_font.weight }};
         --font-body-weight-bold: {{ settings.type_body_font.weight | plus: 300 | at_most: 1000 }};
 
-        --font-heading-family: {{ settings.type_header_font.family }}, {{ settings.type_header_font.fallback_families }};
+        --font-heading-family: 'CharlesWright-Bold', {{ settings.type_header_font.fallback_families }};
         --font-heading-style: {{ settings.type_header_font.style }};
         --font-heading-weight: {{ settings.type_header_font.weight }};
 
