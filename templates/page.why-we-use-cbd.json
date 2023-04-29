@@ -1,0 +1,141 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        "h1 {text-align: center;}"
+      ],
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "0887f2cd-17a6-47e7-8620-2a6b05ac89ab": {
+      "type": "rich-text",
+      "blocks": {
+        "2caf2e90-bec8-4ac9-b118-21fe47fe79ea": {
+          "type": "caption",
+          "settings": {
+            "caption": "CBD Meets Craft Beer",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "template--18793139863830__0887f2cd-17a6-47e7-8620-2a6b05ac89ab-168278457140403c2d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We pride ourselves on using the highest quality ingredients and cut no corners when it comes to quality. <\/p>"
+          }
+        },
+        "9f8fabd6-3a1d-4ee2-bb25-c50fa2a9c86c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The CBD that we use is comprehensively tested by GMP (Good Manufacturing Practice), Shelf Stability Evaluation and ISO (quality assurance management). The beer that we brew is fully Safe And Local Supplier (SALSA) certified. This gives you the confidence that we can deliver to you the highest quality CBD-infused craft beer possible.<\/p>"
+          }
+        },
+        "2f93282f-12a1-4732-b23d-cc3b74979a77": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We want to ensure that you know exactly what you are drinking, so we've made this short video to tell you all about CBD.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "2caf2e90-bec8-4ac9-b118-21fe47fe79ea",
+        "template--18793139863830__0887f2cd-17a6-47e7-8620-2a6b05ac89ab-168278457140403c2d-1",
+        "9f8fabd6-3a1d-4ee2-bb25-c50fa2a9c86c",
+        "2f93282f-12a1-4732-b23d-cc3b74979a77"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "0b681de6-4b42-4fac-a240-4cf233957922": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=44TFaXx3ga8",
+        "cover_image": "shopify:\/\/shop_images\/remote.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4537237a-0d69-43eb-8966-14bde46f95b6": {
+      "type": "multirow",
+      "blocks": {
+        "template--18793139863830__4537237a-0d69-43eb-8966-14bde46f95b6-1682784922f2480777-0": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vti9d_9w.jpg",
+            "icon": "none",
+            "caption": "",
+            "heading": "HELPING YOU TO NATURALLY UNWIND",
+            "text": "<p>Many of our customers have said that drinking our CBD-infused beers has helped them to relax and feel more present whether that be at home, at a gig or in the pub with friends.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "6c6d3327-dcb9-4062-a1a4-3da55daf5c2f": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img_0838.jpg",
+            "icon": "none",
+            "caption": "",
+            "heading": "FSA NOVEL FOODS COMPLIANCE",
+            "text": "<p>For your peace of mind, we are proud to have submitted all our information to the<a href=\"https:\/\/www.food.gov.uk\/business-guidance\/cannabidiol-cbd#cbd-status-as-a-novel-food\">FSA Novel Foods Compliance<\/a>. With the Novel Food status of CBD being confirmed in 2019. <\/p><p>To become authorised, we have provided production methods and safety evidence, so you can rest assured our products are non-psychoactive and completely safe.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "4834d079-e9c2-494b-aa64-6f7bd660981d": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vti9d_9w.jpg",
+            "icon": "none",
+            "caption": "",
+            "heading": "TAILOR-MADE FOR CANNABREW",
+            "text": "<p>At Cannabrew, we don’t get our CBD from just anywhere - our<a href=\"https:\/\/cannabrew.uk\/news\/what-is-cbd-oil\/#CBD%20oil\" title=\"What Is CBD Oil?\">CBD oil<\/a>is tailor-made especially for our innovative beers and ciders. This allows us to control dissolvability, absorption, taste, and aroma.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18793139863830__4537237a-0d69-43eb-8966-14bde46f95b6-1682784922f2480777-0",
+        "6c6d3327-dcb9-4062-a1a4-3da55daf5c2f",
+        "4834d079-e9c2-494b-aa64-6f7bd660981d"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "0887f2cd-17a6-47e7-8620-2a6b05ac89ab",
+    "0b681de6-4b42-4fac-a240-4cf233957922",
+    "4537237a-0d69-43eb-8966-14bde46f95b6"
+  ]
+}
