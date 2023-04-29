@@ -1,0 +1,79 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        "h1 {text-align: center;}"
+      ],
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "b77fd328-9a53-45a5-8ac2-478db3625ecf": {
+      "type": "multirow",
+      "blocks": {
+        "template--18792781152534__b77fd328-9a53-45a5-8ac2-478db3625ecf-168278272110b0c9f8-0": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wmb96uyg_38e85c2c-ae10-428d-8c54-f0810b4a237e.jpg",
+            "icon": "plastic",
+            "caption": "",
+            "heading": "PROUDLY PLASTIC-FREE",
+            "text": "<p>At Cannabrew, we are proud to be 100% plastic-free. <\/p><p>With plastic pollution being such a concerning environmental threat, we use cornstarch-based materials which naturally biodegrade and ensure that any paper products are sourced sustainably. <\/p><p>Our products are sold in aluminium cans or glass bottles, both of which are infinitely recyclable.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "68a76660-0398-40b1-8e93-68e27f883f85": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mpdfqoda-1_96ec6aad-85f2-451a-9556-830fe9a76585.jpg",
+            "icon": "plastic",
+            "caption": "",
+            "heading": "VEGAN-FRIENDLY BEERS AND CIDERS",
+            "text": "<p>Many people are surprised that most beer isn’t vegan, or that it isn’t even vegetarian!<\/p><p>Wait, is there meat in beer? No… but there may be fish guts.<\/p><p>All of our products are vegan-friendly due to our alternative filtration processes.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "699a169e-050e-4149-a632-24581b06e26b": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/photo-1484759288640-783b22c95d54.jpg",
+            "icon": "tractor",
+            "caption": "",
+            "heading": "DONATING TO LOCAL FARMERS",
+            "text": "<p>When it comes to sustainability, we don’t just stop at planting trees. We minimise waste by contributing to a circular economy in the local area, donating leftover hops and malts to farmers where it is often used for fertiliser and feed.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18792781152534__b77fd328-9a53-45a5-8ac2-478db3625ecf-168278272110b0c9f8-0",
+        "68a76660-0398-40b1-8e93-68e27f883f85",
+        "699a169e-050e-4149-a632-24581b06e26b"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b77fd328-9a53-45a5-8ac2-478db3625ecf"
+  ]
+}

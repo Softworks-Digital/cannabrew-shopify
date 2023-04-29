@@ -2077,13 +2077,12 @@ input[type='checkbox'] {
   pointer-events: none;
   content: '';
   position: absolute;
-  top: var(--inputs-border-width);
-  right: var(--inputs-border-width);
-  bottom: var(--inputs-border-width);
-  left: var(--inputs-border-width);
-  border: 0.1rem solid transparent;
+  top: 2px;
+  right: 2px;
+  bottom: 2px;
+  left: 2px;
   border-radius: var(--inputs-radius);
-  box-shadow: 0 0 0 var(--inputs-border-width)
+  box-shadow: 0 0 0 2px
     rgba(var(--color-foreground), var(--inputs-border-opacity));
   transition: box-shadow var(--duration-short) ease;
   z-index: 1;
@@ -3252,7 +3251,6 @@ details-disclosure > details {
 .rte ul,
 .rte ol {
   list-style-position: inside;
-  padding-left: 2rem;
 }
 
 .rte li {
@@ -3372,4 +3370,23 @@ details-disclosure > details {
       opacity: 1;
     }
   }
+}
+
+.spr-summary-starrating {
+  align-items: center;
+}
+
+.spr-summary-starrating .spr-stars {
+  flex-direction: row;
+  margin-right: 1.5rem !important;
+}
+
+.spr-summary-starrating .spr-stars span {
+  display: flex;
+  gap: 5px;
+}
+
+.spr-summary-starrating .spr-stars span svg {
+  width: 30px !important;
+  height: 30px !important;
 }
