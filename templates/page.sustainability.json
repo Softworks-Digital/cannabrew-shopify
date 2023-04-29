@@ -55,6 +55,11 @@
         "68a76660-0398-40b1-8e93-68e27f883f85",
         "699a169e-050e-4149-a632-24581b06e26b"
       ],
+      "custom_css": [
+        ".image-with-text__content svg {margin: auto;}",
+        ".image-with-text__heading {margin-left: auto; margin-right: auto; text-align: center;}",
+        ".image-with-text__text {text-align: center;}"
+      ],
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
