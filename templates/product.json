@@ -35,7 +35,7 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true,
-            "show_gift_card_recipient": false
+            "show_gift_card_recipient": true
           }
         },
         "d868577d-cd14-4ae4-a334-af8440588825": {
@@ -74,7 +74,7 @@
       "settings": {
         "enable_sticky_info": true,
         "media_size": "small",
-        "constrain_to_viewport": true,
+        "constrain_to_viewport": false,
         "media_fit": "contain",
         "gallery_layout": "thumbnail_slider",
         "media_position": "left",
@@ -151,6 +151,9 @@
       },
       "block_order": [
         "0fde3b20-6dbc-4e9c-ba7f-7e87724dd097"
+      ],
+      "custom_css": [
+        ".spr-button {border: 2px solid black; padding: 10px;}"
       ],
       "settings": {
         "include_margins": true

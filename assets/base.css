@@ -3073,6 +3073,10 @@ details-disclosure > details {
 }
 
 @media screen and (max-width: 749px) {
+  .header__search {
+    display: none;
+  }
+
   .content-container--full-width-mobile {
     border-left: none;
     border-right: none;
@@ -3389,4 +3393,8 @@ details-disclosure > details {
 .spr-summary-starrating .spr-stars span svg {
   width: 30px !important;
   height: 30px !important;
+}
+
+.comment-form h2 {
+  margin-bottom: 2rem;
 }

@@ -92,6 +92,10 @@
   margin-bottom: 3rem;
 }
 
+.article-template__content > *:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
 .article-template__social-sharing {
   margin-top: 3rem;
 }
