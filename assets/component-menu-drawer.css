@@ -199,9 +199,10 @@ details[open].menu-opening > .menu-drawer__submenu {
   font-size: 1.4rem;
   width: 100%;
   background-color: transparent;
-  font-family: var(--font-body-family);
+  font-family: var(--font-heading-family);
   font-style: var(--font-body-style);
   text-align: left;
+  text-transform: uppercase;
 }
 
 .no-js .menu-drawer__close-button {
@@ -224,7 +225,9 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 
 @media screen and (max-width: 749px) {
-  .header--has-account:where(:not(.header--has-social):not(.header--has-localizations))
+  .header--has-account:where(
+      :not(.header--has-social):not(.header--has-localizations)
+    )
     .menu-drawer__utility-links {
     padding: 2rem;
   }
