@@ -89,14 +89,15 @@
                 <div class="image-with-text__text rte {{ section.settings.text_style }}">{{ block.settings.text }}</div>
               {%- endif -%}
               {%- if block.settings.button_label != blank -%}
-                <a
-                  {% if block.settings.button_link == blank %}
-                    role="link" aria-disabled="true"
-                  {% else %}
-                    href="{{ block.settings.button_link }}"
-                  {% endif %}
-                  class="button button--{{ section.settings.button_style }}"
-                >
+                <a {% if block.settings.button_link == blank %}
+                      role="link" aria-disabled="true"
+                   {% else %}
+                      href="{{ block.settings.button_link }}"
+                      {% if block.settings.button_link contains 'http' %}
+                        target="_blank"
+                      {% endif %}
+                    {% endif %}
+                        class="button button--{{ section.settings.button_style }}">
                   {{ block.settings.button_label | escape }}
                 </a>
               {%- endif -%}
