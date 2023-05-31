@@ -396,15 +396,6 @@ body,
   overflow: hidden;
 }
 
-.skip-to-content-link:focus {
-  z-index: 9999;
-  position: inherit;
-  overflow: auto;
-  width: auto;
-  height: auto;
-  clip: auto;
-}
-
 .full-width-link {
   position: absolute;
   top: 0;
@@ -425,6 +416,14 @@ body,
   font-family: var(--font-body-family);
   font-style: var(--font-body-style);
   font-weight: var(--font-body-weight);
+}
+
+.ba_initial_state_title {
+  font-family: var(--font-heading-family);
+}
+
+.ba_initial_state_body {
+  font-family: var(--font-body-family);
 }
 
 h1,
