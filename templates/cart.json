@@ -7,6 +7,24 @@
         "padding_bottom": 36
       }
     },
+    "1685710777d516f41b": {
+      "type": "apps",
+      "blocks": {
+        "b02a382c-67e3-4eb9-936d-814c854aed4b": {
+          "type": "shopify:\/\/apps\/what3words-address-field\/blocks\/app-block\/f3caf4d9-1e4e-4bc3-be03-3ebfff041f16",
+          "settings": {
+            "W3w___alignment": "right",
+            "W3w___width": "350px"
+          }
+        }
+      },
+      "block_order": [
+        "b02a382c-67e3-4eb9-936d-814c854aed4b"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
@@ -59,6 +77,7 @@
   },
   "order": [
     "cart-items",
+    "1685710777d516f41b",
     "cart-footer",
     "featured-collection"
   ]
