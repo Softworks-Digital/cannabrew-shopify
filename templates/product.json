@@ -68,7 +68,7 @@
         "share"
       ],
       "custom_css": [
-        ".product-media-container.media-fit-cover, .media>*:not(.zoom):not(.deferred-media__poster-button) {max-height: 450px;}"
+
       ],
       "settings": {
         "enable_sticky_info": true,
