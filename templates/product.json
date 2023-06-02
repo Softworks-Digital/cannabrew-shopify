@@ -96,8 +96,8 @@
             "caption": "",
             "heading": "Keep up to date with the Cannacrew",
             "text": "<p>Subscribe to our newsletter to keep up with the latest news, events and discounts.<\/p>",
-            "button_label": "Subscribe",
-            "button_link": "#NewsletterForm--sections--19199101108502__footer"
+            "button_label": "",
+            "button_link": "#NewsletterForm"
           }
         },
         "0fb566a8-75b9-4bd4-adf5-9714ba04543c": {
@@ -108,8 +108,8 @@
             "caption": "",
             "heading": "We've won some awards",
             "text": "<p>Our Hops and Sunshine has been awarded with a spot on the podium at London Craft Beer Festival.<\/p><p>Our Hops and Sunshine is designed to help you unwind without a hangover, whilst still tasting delicious.<\/p>",
-            "button_label": "Read more",
-            "button_link": "https:\/\/londonbeercompetition.com\/en\/competition-certificates\/2023\/bronze-medal\/3406\/"
+            "button_label": "",
+            "button_link": ""
           }
         }
       },
