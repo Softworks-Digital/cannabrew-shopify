@@ -117,13 +117,13 @@
                 class="menu-drawer__account link focus-inset h5 medium-hide large-up-hide"
               >
                 {% render 'icon-account' %}
-                {%- liquid
-                  if customer
-                    echo 'customer.account_fallback' | t
-                  else
-                    echo 'customer.log_in' | t
-                  endif
-                -%}
+                <span>{%- liquid
+                        if customer
+                            echo 'customer.account_fallback' | t
+                        else
+                            echo 'customer.log_in' | t
+                        endif
+                    -%}</span>
               </a>
             {%- endif -%}
             {%- if section.settings.enable_country_selector or section.settings.enable_language_selector -%}

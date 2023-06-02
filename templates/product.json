@@ -38,6 +38,12 @@
             "show_gift_card_recipient": true
           }
         },
+        "e2220d54-ca64-4d31-9815-760ce358224a": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% assign image_url = \"https:\/\/cdn.shopify.com\/s\/files\/1\/0721\/7378\/1270\/files\/brewing-with-purpose.svg?v=1676733466\" %}\n\n<img src=\"{{ image_url }}\" alt=\"Brewing with purpose\" width=\"340\">"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -48,23 +54,21 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "judgeme_preview_badge_product_page_62bba390": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
         }
       },
       "block_order": [
         "title",
         "caption",
         "price",
-        "judgeme_preview_badge_product_page_62bba390",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "e2220d54-ca64-4d31-9815-760ce358224a",
         "description",
         "share"
+      ],
+      "custom_css": [
+        ".product-media-container.media-fit-cover, .media>*:not(.zoom):not(.deferred-media__poster-button) {max-height: 450px;}"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -93,7 +97,7 @@
             "heading": "Keep up to date with the Cannacrew",
             "text": "<p>Subscribe to our newsletter to keep up with the latest news, events and discounts.<\/p>",
             "button_label": "Subscribe",
-            "button_link": ""
+            "button_link": "#NewsletterForm--sections--19199101108502__footer"
           }
         },
         "0fb566a8-75b9-4bd4-adf5-9714ba04543c": {
@@ -131,6 +135,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -149,24 +154,21 @@
     },
     "168271574158f621af": {
       "type": "apps",
-      "custom_css": [
-        ".spr-button {border: 2px solid black; padding: 10px;}"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "judgeme_section_review_widget_ad07": {
-      "type": "apps",
       "blocks": {
-        "judgeme_review_widget_d5b9045f": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "1f97b40a-108b-45de-b5a8-7f545a8c625c": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": "<h2>What we've been up to<\/h2>"
           }
         }
       },
       "block_order": [
-        "judgeme_review_widget_d5b9045f"
+        "1f97b40a-108b-45de-b5a8-7f545a8c625c"
+      ],
+      "custom_css": [
+        ".spr-button {border: 2px solid black; padding: 10px;}"
       ],
       "settings": {
         "include_margins": true
@@ -175,7 +177,6 @@
   },
   "order": [
     "main",
-    "judgeme_section_review_widget_ad07",
     "e0a3d67d-6515-4760-ba48-ca660acd1db5",
     "related-products",
     "168271574158f621af"
