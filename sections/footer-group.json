@@ -5,6 +5,12 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "26cf946e-d901-4f69-bff2-8aaa17024e19": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
@@ -18,19 +24,12 @@
             "heading": "INFO",
             "menu": "footer-contact-menu"
           }
-        },
-        "footer-2": {
-          "type": "text",
-          "settings": {
-            "heading": "OUR MISSION",
-            "subtext": "<p>Crafting exceptional, sustainably-sourced cannabis-infused beverages that elevate experiences and promote well-being for a healthier, happier world.<\/p>"
-          }
         }
       },
       "block_order": [
+        "26cf946e-d901-4f69-bff2-8aaa17024e19",
         "footer-0",
-        "footer-1",
-        "footer-2"
+        "footer-1"
       ],
       "settings": {
         "color_scheme": "accent-1",
