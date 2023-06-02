@@ -3391,3 +3391,32 @@ details-disclosure > details {
 .comment-form h2 {
   margin-bottom: 2rem;
 }
+
+#logo_img {
+  margin: auto;
+}
+
+.agree_btn,
+.disagree_btn {
+  border-radius: 0 !important;
+  padding: 0.85rem 3rem !important;
+  text-transform: uppercase;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.agree_btn:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+.disagree_btn:hover {
+  background-color: black !important;
+  color: white !important;
+}
+
+#preview_header_text {
+  font-family: var(--font-heading-family) !important;
+}
