@@ -140,6 +140,9 @@
       },
       "main-password-footer": {
         "type": "main-password-footer",
+        "custom_css": [
+          ".list-social:not(:empty) + .password__footer-caption {display: none;}"
+        ],
         "settings": {
           "color_scheme": "background-1"
         }
