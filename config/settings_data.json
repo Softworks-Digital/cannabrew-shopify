@@ -17,7 +17,7 @@
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
     "body_scale": 100,
-    "page_width": 1200,
+    "page_width": 1400,
     "spacing_sections": 20,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
@@ -181,6 +181,12 @@
       },
       "1369284949797581044": {
         "type": "shopify:\/\/apps\/tinyimg\/blocks\/collection-json-ld-embed\/0605268f-f7c4-4e95-b560-e43df7d59ae4",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "9450951229966589494": {
+        "type": "shopify:\/\/apps\/age-verification-popup\/blocks\/app-embed\/0b530eb8-f19c-4a9b-87d4-bf625c71dec9",
         "disabled": false,
         "settings": {
         }
