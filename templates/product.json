@@ -38,16 +38,6 @@
             "show_gift_card_recipient": true
           }
         },
-        "d868577d-cd14-4ae4-a334-af8440588825": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-            "stars_fill_color": "#000000",
-            "star_size": 18,
-            "text_align": "flex-start",
-            "product": "{{product}}",
-            "stars_text_empty": "No reviews"
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -58,16 +48,21 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "judgeme_preview_badge_product_page_62bba390": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "title",
         "caption",
         "price",
+        "judgeme_preview_badge_product_page_62bba390",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "d868577d-cd14-4ae4-a334-af8440588825",
         "description",
         "share"
       ],
@@ -154,18 +149,24 @@
     },
     "168271574158f621af": {
       "type": "apps",
+      "custom_css": [
+        ".spr-button {border: 2px solid black; padding: 10px;}"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "judgeme_section_review_widget_ad07": {
+      "type": "apps",
       "blocks": {
-        "0fde3b20-6dbc-4e9c-ba7f-7e87724dd097": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+        "judgeme_review_widget_d5b9045f": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
       },
       "block_order": [
-        "0fde3b20-6dbc-4e9c-ba7f-7e87724dd097"
-      ],
-      "custom_css": [
-        ".spr-button {border: 2px solid black; padding: 10px;}"
+        "judgeme_review_widget_d5b9045f"
       ],
       "settings": {
         "include_margins": true
@@ -174,6 +175,7 @@
   },
   "order": [
     "main",
+    "judgeme_section_review_widget_ad07",
     "e0a3d67d-6515-4760-ba48-ca660acd1db5",
     "related-products",
     "168271574158f621af"
