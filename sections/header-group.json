@@ -8,7 +8,14 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "FREE DELIVERY ON ORDERS OVER £50",
+            "text": "FREE DELIVERY ON ORDERS OVER £19.99",
+            "link": ""
+          }
+        },
+        "702bccaa-3554-4bf8-a055-3ffd952c1905": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
             "link": ""
           }
         },
@@ -22,6 +29,7 @@
       },
       "block_order": [
         "announcement-bar-0",
+        "702bccaa-3554-4bf8-a055-3ffd952c1905",
         "9608636a-7604-4cf4-a50f-054a3c30a8cc"
       ],
       "settings": {
