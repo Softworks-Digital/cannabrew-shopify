@@ -24,7 +24,7 @@
           "type": "announcement",
           "settings": {
             "text": "Click here to view our premium CBD drinks",
-            "link": "shopify:\/\/collections"
+            "link": "shopify:\/\/collections\/all"
           }
         }
       },
