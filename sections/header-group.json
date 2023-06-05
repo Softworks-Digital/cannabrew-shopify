@@ -14,15 +14,24 @@
         },
         "9608636a-7604-4cf4-a50f-054a3c30a8cc": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "SAVE 10% ON YOUR FIRST ORDER CLICK HERE",
             "link": ""
+          }
+        },
+        "22f039d0-32c3-4f88-9535-68f4056ac4c8": {
+          "type": "announcement",
+          "settings": {
+            "text": "Click here to view our premium CBD drinks",
+            "link": "shopify:\/\/collections"
           }
         }
       },
       "block_order": [
         "announcement-bar-0",
-        "9608636a-7604-4cf4-a50f-054a3c30a8cc"
+        "9608636a-7604-4cf4-a50f-054a3c30a8cc",
+        "22f039d0-32c3-4f88-9535-68f4056ac4c8"
       ],
       "settings": {
         "color_scheme": "background-2",
